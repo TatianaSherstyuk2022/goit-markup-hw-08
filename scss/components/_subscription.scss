@@ -1,0 +1,45 @@
+.send-icon {
+  margin-left: 10px;
+}
+
+.subscription {
+  margin-left: 93px;
+}
+
+.subscription-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscription-input {
+  width: 358px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  margin-right: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  font-weight: 400;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.25;
+  background-color: transparent;
+  outline: none;
+  color: var(--primary-white-color);
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
+}
+
+.subscription-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.privacy-link {
+  color: #2196f3;
+}
