@@ -243,14 +243,14 @@ ul {
   list-style: none;
 }
 
-.benefit {
+.benefits_item {
   width: 270px;
 }
-.benefit:not(:last-child) {
+.benefits_item:not(:last-child) {
   margin-right: 30px;
 }
 
-.benefit-blok {
+.benefits_blok {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -268,7 +268,7 @@ ul {
   line-height: 1.14;
 }
 
-.text {
+.benefits_text {
   margin-top: 10px;
   color: var(--title-text-color);
   line-height: 1.71;
