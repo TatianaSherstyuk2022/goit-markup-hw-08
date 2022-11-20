@@ -59,13 +59,20 @@
   line-height: 1.1;
   margin-top: 0;
   margin-bottom: 10px;
+  font-family: 'Roboto';
+  font-size: 14px;
   @media screen and (max-width: 767px) {
     text-align: center;
   }
 }
 
 .benefits_text {
-  // margin-top: 10px;
-  // color: var(--title-text-color);
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
   line-height: 1.71;
 }
