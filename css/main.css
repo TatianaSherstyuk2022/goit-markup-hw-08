@@ -316,7 +316,7 @@ a {
   overflow: auto;
   justify-content: space-between;
 }
-.mob-menu > .container {
+.mob-menu > .container-mob-menu {
   display: flex;
   flex-direction: column;
   overflow: auto;
@@ -346,6 +346,11 @@ a {
   line-height: 47px;
   letter-spacing: 0.02em;
   color: #212121;
+}
+
+.mobile__link--current,
+.mobile-contact__link--current {
+  color: var(--accent-color);
 }
 
 .mob-list__item:not(:last-child) {
@@ -1136,7 +1141,6 @@ a {
 }
 
 .modal {
-  height: 609px;
   width: 450px;
   background-color: #ffffff;
   position: absolute;
@@ -1152,6 +1156,11 @@ a {
   .modal {
     height: 581px;
     width: 528px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .modal {
+    height: 609px;
   }
 }
 

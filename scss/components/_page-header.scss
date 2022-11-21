@@ -189,7 +189,7 @@
   display: flex;
   overflow: auto;
   justify-content: space-between;
-  > .container {
+  > .container-mob-menu {
     display: flex;
     flex-direction: column;
     overflow: auto;
@@ -224,6 +224,10 @@
   color: #212121;
 }
 
+.mobile__link--current,
+.mobile-contact__link--current {
+    color: var(--accent-color);
+}
 .mob-list__item:not(:last-child) {
   margin-bottom: 32px;
 }
