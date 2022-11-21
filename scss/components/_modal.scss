@@ -8,10 +8,7 @@
   padding: 40px;
   transform: translate(-50%, -50%) scaleX(1) rotate(0);
   transition: transform 300ms linear;
-  @media screen and (min-width:1199px) {
-    height: 581px;
-    width: 528px;;
-  }
+  
  
   max-width: 528px;
   width: 92%;
@@ -20,6 +17,15 @@
     height: 609px;
   }
 
+  @media screen and (min-width:768px) {
+    height: 609px;
+    width: 450px;
+  }
+
+  @media screen and (min-width:1200px) {
+    height: 581px;
+    width: 528px;
+  }
 
 }
 
