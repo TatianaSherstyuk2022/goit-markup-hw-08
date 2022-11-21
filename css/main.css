@@ -1150,7 +1150,7 @@ a {
   transform: translate(-50%, -50%) scaleX(1) rotate(0);
   transition: transform 300ms linear;
   max-width: 528px;
-  width: 90%;
+  width: 92%;
 }
 @media screen and (min-width: 1199px) {
   .modal {
